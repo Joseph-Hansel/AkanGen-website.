@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(18, 12, 58);
+}
+
+.navigation {
+    border: 1px, solid, black;
+    width: 100vw;
+    margin-top: 0px;
+    border-radius: 10px;
+    position:fixed;
+    top: 0%;
+    left: 0%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    top: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 100px;
+}
+
+#company-title {
+    /* float: left; */
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+#logo {
+    float: right;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+#navigation-options {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(155, 145, 132);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#home {
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(155, 145, 132);
+}
+
+form {
+    text-align: center;
+    border: 2px, black, solid;
+    background-color: rgb(100, 73, 73);
+    padding-bottom: 20px;
+    width: fit-content;
+    justify-self: center;
+}
+
+#result {
+    text-align: center;
+    background-color: rgb(155, 145, 132);
+    border-radius: 10px;
+    width: fit-content;
+    justify-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+#footer {
+    background-color: rgb(155, 145, 132);
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 20px;
+    border: 1px, solid, black;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+/* The dropdown section */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropbutton {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+/* Add a background color to navbar links on hover */
+.navigation a:hover, .dropdown:hover .dropbutton {
+    background-color: burlywood;
+}
+  
+/* Dropdown content (hidden by default) */
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdowncontent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+/* Add a background color to dropdown links on hover */
+.dropdowncontent a:hover {
+    background-color: burlywood;
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdowncontent {
+    display: block;
+}

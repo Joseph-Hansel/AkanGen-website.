@@ -1,11 +1,158 @@
 <!DOCTYPE html>
+
+
+
 <html lang="en">
+
+
+
 <head>
+
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Joseph Hansel">
+
+    <meta name="description" content="A website that gives its users an Akan name based on the Ghanian culture.">
+
     <title>AkanGen.com</title>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+
 </head>
+
+
+
 <body>
+
+
+    <!-- navigation bar -->
+    <nav class="navigation">
+
+
+        <section class="title">
+
+
+            <!-- website title -->
+            <h1 id="company-title">AkanGen.com</h1>
+
+            <!-- website logo -->
+            <img src="./assets/images/AGfavicon.png" alt="AkanGen.com logo" id="logo">
+
+
+        </section>
+
+        <section id="navigation-options">
+
+
+            <div>
+                <a href="#home" class="nav-link">Home</a>
+            </div>
+
+            <div class="about-dropdown">
+
+
+                <a href="#about" class="about-dropdown-link" class="nav-link">About</a>
+
+                <div class="about-dropdown-content">
+                    <p>This site adopts the naming tradition of the Akan people through out West Africa. They name their children after the day of the week on which they were born.</p>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </nav> 
+
+    <div id="home">
+
+
+        <h2>Welcome to AkanGen. Get to know your name according to the Ghanian tradition.</h2>
+        <!-- <p>This site adopts the naming tradition of the Akan people through out West Africa.</p>
+        <p>They name their children after the day of the week on which they were born.</p> -->
+
+
+    </div>
+
+    <!-- input form -->
+    <form id="form">
+
+
+        <h4>Please fill in the details of your date of birth below.</h4>
+
+        <br>
+
+        <input type="number" id="yob" name="yob" placeholder="Year:">
+
+        <br>
+        <br>
+
+        <input type="number" id="mob" name="mob" placeholder="Month:">
+
+        <br>
+        <br>
+
+        <input type="number" id="dob" name="dob" placeholder="Date:">
+
+        <br>
+        <br>
+
+        <h4>We will also need your gender.</h4>
+
+        <br>
+
+        <div id="gender-form">
+
+
+            <label><input type="radio" name="gender" value="male">Male</label>
+
+            <br>
+
+            <label><input type="radio" name="gender" value="female">Female</label>
+
+
+        </div>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+    <!-- name display -->
+    <div id="result"></div>
+
+    <!-- footer -->
+    <footer id="footer">
+
+
+        <h4>&copy; AkanGen 2025</h4>
+
+
+    </footer>
+
+    <script src="./src/script.js"></script>
+
     
 </body>
+
+
+
 </html>
