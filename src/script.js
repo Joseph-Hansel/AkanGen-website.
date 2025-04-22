@@ -78,7 +78,7 @@ document.getElementById("form").addEventListener("submit", function(event){
 
     let akanName = gender === "male" ? maleNames[dayInIntegers] : femaleNames[dayInIntegers];
 
-    result.textContent = "Your Akan Name is ${akanName}";
+    result.textContent = `Your Akan Name is ${akanName}`;
 
     
 }
