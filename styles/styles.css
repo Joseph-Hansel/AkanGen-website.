@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(18, 12, 58);
+}
+
+.navigation {
+    border: 1px, solid, black;
+    width: 100vw;
+    margin-top: 0px;
+    border-radius: 10px;
+    position:fixed;
+    top: 0%;
+    left: 0%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    top: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 100px;
+}
+
+#company-title {
+    /* float: left; */
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+#logo {
+    float: right;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+#navigation-options {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(155, 145, 132);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#home {
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(155, 145, 132);
+}
+
+form {
+    text-align: center;
+    border: 2px, black, solid;
+    background-color: rgb(100, 73, 73);
+    padding-bottom: 20px;
+    width: fit-content;
+    justify-self: center;
+}
+
+#result {
+    text-align: center;
+    background-color: rgb(155, 145, 132);
+    border-radius: 10px;
+    width: fit-content;
+    justify-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+#footer {
+    background-color: rgb(155, 145, 132);
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 20px;
+    border: 1px, solid, black;
+    width: 100vw;
+}
