@@ -76,9 +76,11 @@ document.getElementById("form").addEventListener("submit", function(event){
 
     const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-    const akanName = gender === "male" ? maleNames[dayInIntegers] : femaleNames[dayInIntegers];
+    let akanName = gender === "male" ? maleNames[dayInIntegers] : femaleNames[dayInIntegers];
 
-    results.textContent = "${akanName}";
+    results.textContent = "Your Akan Name is" ; ${akanName};
+
+    
 }
 
 );
