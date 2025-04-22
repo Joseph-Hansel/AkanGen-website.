@@ -56,4 +56,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 
 
-[Click here](#sightcapturecom)to go back to the top.
+[Click here](#top)to go back to the top.
