@@ -13,13 +13,13 @@ document.getElementById("form").addEventListener("submit", function(event){
     const gender = document.querySelector("input[name=\"gender\"]:checked")?.value;
 
     // results
-    const results = document.getElementById("result");
+    const result = document.getElementById("result");
 
 
     if(!year || !month || !date || !gender) {
 
 
-        results.textContent = "Please make sure that all the fields are filled in."
+        result.textContent = "Please make sure that all the fields are filled in."
 
 
         return;
@@ -38,7 +38,7 @@ document.getElementById("form").addEventListener("submit", function(event){
     if(monthInIntegers < 1 || monthInIntegers > 12) {
 
 
-        results.textContent = "Please fill in a valid value for \"Month\".";
+        result.textContent = "Please fill in a valid value for \"Month\".";
 
 
         return;
@@ -50,7 +50,7 @@ document.getElementById("form").addEventListener("submit", function(event){
     if(dateInIntegers <1 || dateInIntegers >31) {
 
 
-        results.textContent = "Please fill in a valid value for \"Date\".";
+        result.textContent = "Please fill in a valid value for \"Date\".";
 
 
         return;
@@ -78,7 +78,7 @@ document.getElementById("form").addEventListener("submit", function(event){
 
     let akanName = gender === "male" ? maleNames[dayInIntegers] : femaleNames[dayInIntegers];
 
-    results.textContent = "Your Akan Name is ${akanName}";
+    result.textContent = "Your Akan Name is ${akanName}";
 
     
 }
