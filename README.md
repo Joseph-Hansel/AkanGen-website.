@@ -1,6 +1,6 @@
 # AkanGen.com
 
-![Favorite icon](./images/AGfavicon.png) 
+![Favorite icon](./assets/images/AGfavicon.png) 
 ## AkanGen. The <ins>NO. 1</ins> place to know your Akan Name.
 
 _Edited by:_ **Joseph Hansel**
